@@ -17,4 +17,8 @@ List of all artisan commands of Laravel
 10. php artisan view:clear
 11. php artisan route:clear
 12. php artisan route:cache
+
+13. composer dump-autoload
+14. php artisan migrate
+15. php artisan db:seed
 ```
