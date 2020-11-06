@@ -1,7 +1,7 @@
 # Laravel-Artisan-Commands
 List of all artisan commands of Laravel
 
-> <span style="color:red"> **1. How to create or install a new Laravel project with latest version?** </span>
+> - **1. How to create or install a new Laravel project with latest version?**
 ```
 composer create-project laravel/laravel YOUR_PROJECT_NAME 
 ```
