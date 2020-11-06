@@ -1,7 +1,7 @@
 # Laravel-Artisan-Commands
 List of all artisan commands of Laravel
 
-> **1. How to create or install a new Laravel project with latest version?**
+> <span style="color:red"> **1. How to create or install a new Laravel project with latest version?** </span>
 ```
 composer create-project laravel/laravel YOUR_PROJECT_NAME 
 ```
@@ -26,7 +26,7 @@ php artisan -V
 > **5. How to start Laravel project in default port?**
 ```
 php artisan serve
-Defatlt port is **8000**
+Defatlt port is 8000
 ```
 
 > **6. How to start Laravel project in a specific port?**
