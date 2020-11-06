@@ -1,8 +1,3 @@
-<style>
-	body blockquote {
-    background-color: red;
-}
-</style>
 # Laravel-Artisan-Commands
 List of all artisan commands of Laravel
 
@@ -39,16 +34,20 @@ Defatlt port is 8000
 php artisan serve --port=YOUR_PORT
 ```
 
+> **7. How to generate Key in Laravel .env file?**
 ```
-1. composer create-project laravel/laravel YOUR_PROJECT_NAME 
-2. composer create-project laravel/laravel="5.8.*" YOUR_PROJECT_NAME
-3. composer create-project --prefer-dist laravel/laravel YOUR_PROJECT_NAME "5.5.*"
+php artisan key:generate
+```
 
-4.  php artisan --version
-5.  php artisan serve
-6.  php artisan serve --port=YOUR_PORT
+> **8. How to run autoload the Laravel class files?**
+```
+composer dump-autoload
+OR
+composer dump-autoload -o
+```
 
-7.  php artisan key:generate
+```
+
 
 8.  php artisan cache:clear
 9.  php artisan config:cache
@@ -56,7 +55,6 @@ php artisan serve --port=YOUR_PORT
 11. php artisan route:clear
 12. php artisan route:cache
 
-13. composer dump-autoload
 14. php artisan migrate
 15. php artisan db:seed
 ```
