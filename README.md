@@ -16,6 +16,24 @@ composer create-project laravel/laravel="5.8.*" YOUR_PROJECT_NAME
 composer create-project laravel/laravel="5.8.*" YOUR_PROJECT_NAME 
 ```
 
+> **4. How to check Laravel version?**
+```
+php artisan --version
+OR
+php artisan -V
+```
+
+> **5. How to start Laravel project in default port?**
+```
+php artisan serve
+*Defatlt port is 8000*
+```
+
+> **6. How to start Laravel project in a specific port?**
+```
+php artisan serve --port=YOUR_PORT
+```
+
 ```
 1. composer create-project laravel/laravel YOUR_PROJECT_NAME 
 2. composer create-project laravel/laravel="5.8.*" YOUR_PROJECT_NAME
