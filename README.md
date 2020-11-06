@@ -1,9 +1,19 @@
 # Laravel-Artisan-Commands
 List of all artisan commands of Laravel
 
-> **1. How to create a new Laravel project with latest version**
+> **1. How to create or install a new Laravel project with latest version?**
 ```
 composer create-project laravel/laravel YOUR_PROJECT_NAME 
+```
+
+> **2. How to create or install a new Laravel project with specific version?**
+```
+composer create-project laravel/laravel="5.8.*" YOUR_PROJECT_NAME 
+```
+
+> **3. How to create or install a new Laravel project with stable specific version?**
+```
+composer create-project laravel/laravel="5.8.*" YOUR_PROJECT_NAME 
 ```
 
 ```
