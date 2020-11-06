@@ -1,10 +1,8 @@
-(setq markdown-xhtml-header-content
-      "<style type='text/css'>
-blockquote {
-    border-left: 5px solid #000000;
+<style>
+	body blockquote {
+    background-color: red;
 }
-</style>")
-
+</style>
 # Laravel-Artisan-Commands
 List of all artisan commands of Laravel
 
