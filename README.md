@@ -3,7 +3,7 @@
 > **List of all artisan commands of Laravel**
 
 ```
-    *Create Project*
+    **Create Project**
     composer create-project laravel/laravel YOUR_PROJECT_NAME 
     composer create-project laravel/laravel="5.8.*" YOUR_PROJECT_NAME 
 
