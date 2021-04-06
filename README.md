@@ -82,3 +82,15 @@
 
     php artisan make:mail YOUR_MAILABLE_NAME
 ```
+```
+    composer require laravel/ui
+    
+    php artisan ui vue --auth
+
+    php artisan ui bootstrap --auth
+    
+    npm install
+    npm run dev
+    npm run prod
+    npm run watch
+```
