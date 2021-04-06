@@ -3,19 +3,34 @@
 > **List of all artisan commands of Laravel**
 
 ```
-    1.  composer create-project laravel/laravel YOUR_PROJECT_NAME 
-    2.  composer create-project laravel/laravel="5.8.*" YOUR_PROJECT_NAME 
-    3.  php artisan --version
-    4.  php artisan -V
-    5.  php artisan serve
-    6.  php artisan serve --port=YOUR_PORT
-    7.  php artisan key:generate
-    8.  composer dump-autoload
-    9.  php artisan cache:clear
-    10. php artisan config:cache
-    11. php artisan view:clear
-    12. php artisan route:clear
-    13. php artisan route:cache
-    14. php artisan migrate
-    15. php artisan db:seed
+    *Create Project*
+    composer create-project laravel/laravel YOUR_PROJECT_NAME 
+    composer create-project laravel/laravel="5.8.*" YOUR_PROJECT_NAME 
+
+    php artisan --version
+    php artisan -V
+    
+    php artisan serve
+    php artisan serve --port=YOUR_PORT
+    
+    php artisan key:generate
+    composer dump-autoload
+    
+    php artisan cache:clear
+    php artisan config:clear
+    php artisan config:cache
+    
+    php artisan view:clear
+    php artisan view:cache
+
+    php artisan route:clear
+    php artisan route:cache
+
+    php artisan migrate
+    php artisan db:seed
+    
+    php artisan make:controller YOUR_CONTROLLER_NAME
+    php artisan make:model YOUR_MODEL_NAME
+    php artisan make:middleware YOUR_MIDDLEWARE_NAME
+    php artisan make:migration create_YOUR_TABLE_NAME_table 
 ```
