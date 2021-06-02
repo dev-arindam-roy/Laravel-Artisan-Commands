@@ -82,6 +82,13 @@
 
     php artisan make:mail YOUR_MAILABLE_NAME
 ```
+
+```
+    php artisan tinker
+    User::factory()->count(3)->make();
+    User::factory()->count(3)->create();
+```
+
 ```
     composer require laravel/ui
     
