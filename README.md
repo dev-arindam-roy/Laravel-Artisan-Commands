@@ -94,6 +94,8 @@
 ```
     composer require laravel/ui
     
+    php artisan ui vue
+    
     php artisan ui vue --auth
 
     php artisan ui bootstrap --auth
@@ -102,4 +104,6 @@
     npm run dev
     npm run prod
     npm run watch
+    
+    npm cache clear --force
 ```
