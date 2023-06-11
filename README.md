@@ -107,3 +107,9 @@
     
     npm cache clear --force
 ```
+
+```
+php artisan queue:table
+php artisan queue:failed-table
+php artisan queue:batches-table
+```
