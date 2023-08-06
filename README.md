@@ -94,6 +94,9 @@
 
 ```
     composer require laravel/ui
+    composer require laravel/ui:^3.4 (for 8)
+    composer require laravel/ui:^2.4 (for 7)
+    composer require laravel/ui:^1.0 --dev (for 6)
     
     php artisan ui vue
     
