@@ -4,7 +4,8 @@
 
 ```
     composer create-project laravel/laravel YOUR_PROJECT_NAME 
-    composer create-project laravel/laravel="5.8.*" YOUR_PROJECT_NAME 
+    composer create-project laravel/laravel="5.8.*" YOUR_PROJECT_NAME
+    composer create-project laravel/laravel=4.1.27 your-project-name --prefer-dist
 ```
 ```
     php artisan --version
