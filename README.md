@@ -110,7 +110,9 @@
     npm run prod
     npm run watch
     
-    npm cache clear --force
+    step1: npm cache clear --force
+    step2: delete package-lock.json
+    step3: again run - "npm run dev"
 ```
 
 ```
