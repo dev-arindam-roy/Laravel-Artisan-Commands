@@ -124,3 +124,17 @@ php artisan queue:batches-table
 ```
 php artisan vendor:publish --tag=laravel-errors
 ```
+
+
+```
+$data = ProcurementItems::with(['procurement' => function($itemQry) {
+    $itemQry->with(['cartOrders' => function($cartQry) {
+        $cartQry->with(['cartItems' => function($cartItmQry) {
+            $cartItmQry->with(['productVariant']);
+        }]);
+    }]);
+}])
+->where('procurement_id', $procurementId)
+->orderBy('id', 'desc')
+->get();
+```
