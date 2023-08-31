@@ -125,6 +125,11 @@ php artisan queue:batches-table
 php artisan vendor:publish --tag=laravel-errors
 ```
 
+```
+{!! $all_products->withQueryString()->links() !!}
+{{ $allImages->appends(request()->query())->links() }}
+```
+
 
 ```
 $data = ProcurementItems::with(['procurement' => function($itemQry) {
