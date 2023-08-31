@@ -130,6 +130,13 @@ php artisan vendor:publish --tag=laravel-errors
 {{ $allImages->appends(request()->query())->links() }}
 ```
 
+```
+$users = User::paginate()->withQueryString();
+$users = User::paginate()->appends([
+    'role' => $request->role,
+    'group' => $request->group,
+]);
+```
 
 ```
 $data = ProcurementItems::with(['procurement' => function($itemQry) {
