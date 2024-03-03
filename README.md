@@ -78,8 +78,11 @@
     php artisan make:event YOUR_EVENT_NAME
     
     php artisan make:listener YOUR_LISTENER_NAME
+
+    php artisan make:job UserSignUp
     
     php artisan queue:table
+    php artisan queue:batches-table
 ```
 ```
     php artisan make:command YOUR_COMMAND_NAME
