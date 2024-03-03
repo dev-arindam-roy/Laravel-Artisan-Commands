@@ -88,6 +88,12 @@
     php artisan make:command YOUR_COMMAND_NAME
 
     php artisan make:mail YOUR_MAILABLE_NAME
+
+    php artisan lang:publish
+
+    php artisan make:notification InvoicePaid
+
+    php artisan notifications:table
 ```
 
 ```
